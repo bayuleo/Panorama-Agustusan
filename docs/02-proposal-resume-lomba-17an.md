@@ -102,7 +102,62 @@ Menyediakan rangkaian lomba tradisional dan permainan kelompok yang terorganisas
 
 ## 4. Bagan Skema Turnamen
 
-### 4.1 Template sistem gugur 8 peserta/tim
+### 4.1 Single elimination — format tabel bergaris
+
+Gunakan template berikut seperti bracket turnamen sepak bola. Slot peserta diisi setelah pendaftaran ditutup.
+
+#### BR-01 — Balap Karung
+
+| Penyisihan / 8 Besar | Semifinal | Final | Juara |
+|---|---|---|---|
+| P1 vs P2 | SF-1 | Final | Juara 1: __________ |
+| P3 vs P4 | SF-1 |  | Juara 2: __________ |
+| P5 vs P6 | SF-2 |  |  |
+| P7 vs P8 | SF-2 |  |  |
+| Pemenang SF-1 | Finalis 1 |  |  |
+| Pemenang SF-2 | Finalis 2 |  |  |
+
+**Perebutan Juara 3:** Kalah Semifinal 1 vs Kalah Semifinal 2 → Juara 3: __________
+
+#### BR-02 — Pindah Air Galon
+
+| Penyisihan / 8 Besar | Semifinal | Final | Juara |
+|---|---|---|---|
+| T1 vs T2 | SF-1 | Final | Juara 1: __________ |
+| T3 vs T4 | SF-1 |  | Juara 2: __________ |
+| T5 vs T6 | SF-2 |  |  |
+| T7 vs T8 | SF-2 |  |  |
+| Pemenang SF-1 | Finalis 1 |  |  |
+| Pemenang SF-2 | Finalis 2 |  |  |
+
+**Perebutan Juara 3:** Kalah Semifinal 1 vs Kalah Semifinal 2 → Juara 3: __________
+
+#### BR-03 — Jalan Pakai Alas
+
+| Penyisihan / 8 Besar | Semifinal | Final | Juara |
+|---|---|---|---|
+| T1 vs T2 | SF-1 | Final | Juara 1: __________ |
+| T3 vs T4 | SF-1 |  | Juara 2: __________ |
+| T5 vs T6 | SF-2 |  |  |
+| T7 vs T8 | SF-2 |  |  |
+| Pemenang SF-1 | Finalis 1 |  |  |
+| Pemenang SF-2 | Finalis 2 |  |  |
+
+**Perebutan Juara 3:** Kalah Semifinal 1 vs Kalah Semifinal 2 → Juara 3: __________
+
+#### BR-04 — Lomba ranking heat
+
+Digunakan untuk Masuk Paku, Pindah Air Gelas, Makan Kue, Pindah Bola Pakai Pipa, dan Ular Tangga Giant.
+
+| Heat/putaran | Rekap nilai | Ranking | Juara |
+|---|---|---|---|
+| Heat 1: __________ | Waktu/volume/poin | Ranking 1 | Juara 1: __________ |
+| Heat 2: __________ | Waktu/volume/poin | Ranking 2 | Juara 2: __________ |
+| Heat 3: __________ | Waktu/volume/poin | Ranking 3 | Juara 3: __________ |
+
+Jika nilai sama, lakukan tie-breaker/putaran ulang sesuai keputusan juri sebelum hasil ditandatangani.
+
+### 4.2 Template sistem gugur 8 peserta/tim
 
 Digunakan untuk Balap Karung dan dapat diadaptasi untuk Pindah Air Galon/Jalan Pakai Alas berdasarkan jumlah tim aktual.
 
