@@ -55,9 +55,9 @@ Menyediakan rangkaian lomba tradisional dan permainan kelompok yang terorganisas
 | Jumlah cabang | 8 cabang: 5 anak-anak, 3 dewasa |
 | Model lomba | Personal dan kelompok |
 | Pagu hadiah terbaru | Rp1.000.000 |
-| Rincian paket awal | Rp865.000 |
-| Ruang penyesuaian hadiah | Rp135.000 |
-| Alokasi perlengkapan/operasional lomba | Rp790.000 |
+| Rincian hadiah kategori anak | Rp430.000 |
+| Rincian hadiah kategori dewasa | Rp570.000 |
+| Kebutuhan acara: perlengkapan & operasional lomba | Rp790.000 |
 | Total kebutuhan Lomba 17-an | Rp1.790.000 |
 | Total unit penerima | 24 pax juara: 15 unit anak dan 9 unit/tim dewasa sesuai basis anggaran |
 
@@ -70,11 +70,11 @@ Menyediakan rangkaian lomba tradisional dan permainan kelompok yang terorganisas
 | No. | Nama Lomba | Kategori | Format | Sistem Match | Aturan Pemenang |
 |---:|---|---|---|---|---|
 | 1 | Balap Karung | Anak | Personal | Sistem gugur; heat menyesuaikan peserta | Peserta tercepat menyentuh garis finish dengan tetap berada dalam karung dan mengikuti lintasan |
-| 2 | Masuk Paku | Anak | Personal | Waktu tercepat | Paku yang diikat di pinggang dimasukkan ke botol tanpa bantuan tangan; waktu tercepat menang |
-| 3 | Pindah Air Gelas | Anak | Personal | Volume/waktu | Peserta memindahkan air menggunakan gelas estafet/bocor; pemenang ditentukan dari volume terbanyak dalam batas waktu, dengan waktu sebagai tie-breaker |
+| 2 | Masuk Paku | Anak | Personal | Waktu tercepat | Peserta menggunakan tongkat sederhana seperti pancing untuk memasukkan/mengarahkan paku ke dalam botol tanpa bantuan tangan; waktu tercepat menang |
+| 3 | Pindah Air Gelas | Anak | Personal | Volume/waktu | Peserta mengambil air dari ember menggunakan gelas yang diikat di kepala, lalu memindahkannya ke wadah tujuan; pemenang ditentukan dari volume terbanyak dalam batas waktu, dengan waktu sebagai tie-breaker |
 | 4 | Makan Kue di Wajah | Anak | Personal | Waktu tercepat | Kue dipindahkan dari dahi ke mulut tanpa tangan; peserta tercepat yang berhasil memakan kue menang |
 | 5 | Pindah Bola Pakai Pipa | Anak | Kelompok 3 anak/tim | Estafet | Tim menyambungkan/mengatur pipa agar bola berpindah dari start ke finish tanpa jatuh; waktu tercepat dengan penalti pelanggaran paling kecil menang |
-| 6 | Pindah Air Galon | Dewasa | Kelompok 5 orang/tim | Sistem gugur | Tim memindahkan galon berisi air menuju finish dengan tumpahan/penalti paling kecil dan waktu tercepat |
+| 6 | Pindah Air Galon | Dewasa | Kelompok 5 orang/tim | Sistem gugur | Tim memindahkan air secara estafet dengan menuang dari galon di atas kepala ke galon anggota lain yang membelakangi; pemenang ditentukan dari waktu tercepat dengan tumpahan/penalti paling kecil |
 | 7 | Ular Tangga Giant | Dewasa | Kelompok 8 orang/tim | Poin/finish | Satu anggota menjadi bidak; tujuh anggota menjadi pelempar/pemandu. Tim dengan finish lebih dahulu atau poin tertinggi sesuai batas waktu menang |
 | 8 | Jalan Pakai Alas | Dewasa | Kelompok 5 orang/tim | Sistem gugur/estafet | Tim memindahkan alas kaki secara estafet hingga finish; waktu tercepat dengan seluruh anggota dan alat sah menang |
 
@@ -245,20 +245,20 @@ Jika batas waktu tercapai sebelum finish, poin tertinggi menjadi dasar peringkat
 
 | Peringkat | Jumlah juara | Komponen hadiah per pax | Harga satuan | Subtotal |
 |---|---:|---|---:|---:|
-| Juara 1 | 4 pax | Medali plastik + snack box/snack renteng hemat | Rp25.000 | Rp100.000 |
-| Juara 2 | 4 pax | Set alat tulis + snack pack | Rp15.000 | Rp60.000 |
-| Juara 3 | 4 pax | Buku gambar/tulis + snack | Rp10.000 | Rp40.000 |
-|  |  | **Subtotal 4 lomba personal** |  | **Rp200.000** |
+| Juara 1 | 4 pax | Medali plastik + snack box/snack renteng hemat | Rp35.000 | Rp140.000 |
+| Juara 2 | 4 pax | Set alat tulis + snack pack | Rp25.000 | Rp100.000 |
+| Juara 3 | 4 pax | Buku gambar/tulis + snack | Rp20.000 | Rp80.000 |
+|  |  | **Subtotal 4 lomba personal** |  | **Rp320.000** |
 
 ### 5.2 Kategori anak-anak — 1 lomba kelompok
 
 | Peringkat | Jumlah tim | Komponen hadiah per tim | Harga satuan | Subtotal |
 |---|---:|---|---:|---:|
-| Juara 1 | 1 tim | 3 paket alat tulis + snack tim | Rp45.000 | Rp45.000 |
-| Juara 2 | 1 tim | 3 paket buku tulis + snack tim | Rp30.000 | Rp30.000 |
-| Juara 3 | 1 tim | 3 paket snack hemat tim | Rp20.000 | Rp20.000 |
-|  |  | **Subtotal lomba kelompok anak** |  | **Rp95.000** |
-|  |  | **Total kategori anak-anak** |  | **Rp295.000** |
+| Juara 1 | 1 tim | 3 paket alat tulis + snack tim | Rp50.000 | Rp50.000 |
+| Juara 2 | 1 tim | 3 paket buku tulis + snack tim | Rp35.000 | Rp35.000 |
+| Juara 3 | 1 tim | 3 paket snack hemat tim | Rp25.000 | Rp25.000 |
+|  |  | **Subtotal lomba kelompok anak** |  | **Rp110.000** |
+|  |  | **Total kategori anak-anak** |  | **Rp430.000** |
 
 ### 5.3 Kategori dewasa — 3 lomba kelompok
 
@@ -273,10 +273,11 @@ Jika batas waktu tercapai sebelum finish, poin tertinggi menjadi dasar peringkat
 
 - Anak-anak: 4 lomba personal × 3 juara = 12 pax, ditambah 3 anak pada tim pemenang lomba kelompok pada setiap peringkat = 9 paket individu. Basis tabel anggaran menyebut **15 pax juara anak**; panitia perlu mengunci apakah yang dimaksud pax adalah jumlah tim/paket juara atau jumlah anak penerima.
 - Dewasa: 3 lomba × 3 peringkat = **9 tim penerima**.
-- Rincian paket awal mengikuti angka sumber: **Rp865.000**.
-- Pagu hadiah terbaru ditetapkan menjadi **Rp1.000.000**, sehingga tersedia ruang penyesuaian **Rp135.000** yang belum dirinci.
+- Total hadiah kategori anak-anak: **Rp430.000**.
+- Total hadiah kategori dewasa: **Rp570.000**.
+- Total pagu hadiah: **Rp1.000.000**, seluruhnya sudah dialokasikan ke budget peringkat/tim.
 
-> **Keputusan yang perlu dikunci sebelum belanja:** definisi “24 Pax Juara” dan penggunaan ruang penyesuaian Rp135.000. Rincian paket awal konsisten dengan Rp295.000 + Rp570.000 = Rp865.000, tetapi jumlah individu anak pada lomba kelompok perlu dicatat terpisah dari jumlah unit juara/tim agar distribusi hadiah tidak keliru.
+> **Keputusan yang perlu dikunci sebelum belanja:** definisi “24 Pax Juara” dan rincian isi paket hadiah. Budget sudah dialokasikan penuh: Rp430.000 kategori anak + Rp570.000 kategori dewasa = Rp1.000.000. Jumlah individu anak pada lomba kelompok tetap perlu dicatat terpisah dari jumlah unit juara/tim agar distribusi hadiah tidak keliru.
 
 ---
 
@@ -284,22 +285,23 @@ Jika batas waktu tercapai sebelum finish, poin tertinggi menjadi dasar peringkat
 
 | No. | Kategori | Rincian | Subtotal |
 |---:|---|---|---:|
-| 1 | Anak-anak | 4 lomba personal | Rp200.000 |
-| 2 | Anak-anak | 1 lomba kelompok 3 anak/tim | Rp95.000 |
-|  | **Subtotal kategori anak-anak** |  | **Rp295.000** |
+| 1 | Anak-anak | 4 lomba personal | Rp320.000 |
+| 2 | Anak-anak | 1 lomba kelompok 3 anak/tim | Rp110.000 |
+|  | **Subtotal kategori anak-anak** |  | **Rp430.000** |
 | 3 | Dewasa | 3 lomba kelompok, seluruh peringkat | Rp570.000 |
-|  | **Subtotal paket terurai** | Anak-anak + dewasa | **Rp865.000** |
-|  | **Pagu hadiah terbaru** | Termasuk ruang penyesuaian | **Rp1.000.000** |
+|  | **Total hadiah kategori anak** | 4 personal + 1 kelompok | **Rp430.000** |
+|  | **Total hadiah kategori dewasa** | 3 lomba kelompok | **Rp570.000** |
+|  | **Pagu hadiah terbaru** | Anak + dewasa | **Rp1.000.000** |
 
 | Pembanding anggaran | Nilai |
 |---|---:|
 | Pagu hadiah terbaru | Rp1.000.000 |
-| Subtotal paket terurai | Rp865.000 |
-| Ruang penyesuaian hadiah | Rp135.000 |
+| Hadiah kategori anak | Rp430.000 |
+| Hadiah kategori dewasa | Rp570.000 |
 
-**Formula paket awal:** Rp295.000 + Rp570.000 = **Rp865.000**.
-**Formula pagu terbaru:** Rp865.000 + Rp135.000 = **Rp1.000.000**.
-**Status:** pagu hadiah terbaru; harga realisasi dan penggunaan ruang penyesuaian perlu dicatat berdasarkan nota/persetujuan panitia.
+**Formula hadiah:** Rp430.000 + Rp570.000 = **Rp1.000.000**.
+**Pembagian total Lomba 17-an:** Rp1.000.000 untuk hadiah + Rp790.000 untuk kebutuhan acara = **Rp1.790.000**.
+**Status:** seluruh pagu hadiah sudah dialokasikan ke peringkat/tim; harga realisasi dan isi paket dicatat berdasarkan nota/persetujuan panitia.
 
 ---
 
@@ -367,7 +369,7 @@ Jika batas waktu tercapai sebelum finish, poin tertinggi menjadi dasar peringkat
 
 | Kategori | Anggaran | Realisasi | Selisih | Status nota |
 |---|---:|---:|---:|---|
-| Anak-anak | Rp295.000 | Rp................ | Rp................ | Ada / belum lengkap |
+| Anak-anak | Rp430.000 | Rp................ | Rp................ | Ada / belum lengkap |
 | Dewasa | Rp570.000 | Rp................ | Rp................ | Ada / belum lengkap |
 | **Pagu hadiah terbaru** | **Rp1.000.000** | Rp................ | Rp................ |  |
 
