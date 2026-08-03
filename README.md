@@ -13,4 +13,4 @@ Dokumentasi planning dan proposal kegiatan Agustusan Panorama Garden, lingkup Bl
 - **Malam Barikan:** 16 Agustus 2026
 
 > Anggaran Barikan sebesar Rp3.210.000 masih berupa estimasi sementara dan belum memasukkan kayu usuk, sekrup rangka banner, serta bendera tangan anak-anak.
-> Total anggaran gabungan dibulatkan menjadi Rp5.000.000: Rp1.790.000 untuk Lomba 17-an dan Rp3.210.000 untuk Malam Barikan. Pagu hadiah lomba terbaru Rp1.000.000; Rp790.000 lainnya adalah alokasi sementara perlengkapan/operasional lomba.
+> Total anggaran gabungan dibulatkan menjadi Rp5.000.000: Rp1.790.000 untuk Lomba 17-an dan Rp3.210.000 untuk Malam Barikan. Rp1.000.000 untuk hadiah lomba; Rp790.000 lainnya adalah alokasi sementara kebutuhan pelaksanaan acara lomba.
