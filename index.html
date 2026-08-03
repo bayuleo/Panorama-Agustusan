@@ -70,6 +70,9 @@
     td strong { color:var(--red-dark); }
     .budget-grid { display:grid; grid-template-columns: 1fr 1fr; gap:18px; }
     .budget-card { background:var(--paper); padding:25px; border:1px solid var(--line); border-radius:var(--radius); }
+    .grand-total { margin-top:18px; display:flex; align-items:center; justify-content:space-between; gap:18px; padding:20px 24px; border-radius:18px 18px 18px 4px; background:var(--green); color:#fff8eb; }
+    .grand-total span { color:#d8e2d9; font-size:.88rem; }
+    .grand-total strong { color:#f0c76d; font:2rem/1 Georgia,serif; white-space:nowrap; }
     .budget-card h3 { font-size:1.55rem; margin-bottom:18px; }
     .budget-list { list-style:none; padding:0; margin:0; }
     .budget-list li { display:flex; justify-content:space-between; gap:18px; padding:11px 0; border-bottom:1px dashed var(--line); font-size:.9rem; }
@@ -134,6 +137,8 @@
       .calendar-grid { min-width:650px; }
       .calendar-day { min-height:100px; padding:8px; }
       .calendar-event { padding:7px; font-size:.67rem; }
+      .grand-total { align-items:flex-start; flex-direction:column; gap:8px; }
+      .grand-total strong { font-size:1.8rem; }
     }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
   </style>
@@ -187,7 +192,7 @@
       <tr><td><strong>Jalan Pakai Alas</strong></td><td>Dewasa</td><td>5 orang/tim</td><td>Estafet</td><td>Tercepat dengan alat sah</td></tr>
     </tbody></table></div></div></section>
 
-    <section id="anggaran" style="background:#f0ecdf"><div class="wrap"><div class="section-head"><h2>Anggaran yang<br>bisa diawasi.</h2><p>Angka di bawah mengikuti data panitia. Item yang belum memiliki harga tidak dimasukkan ke total sementara.</p></div><div class="budget-grid"><article class="budget-card"><h3>Hadiah lomba</h3><ul class="budget-list"><li><span>Anak · 4 lomba personal</span><span>Rp200.000</span></li><li><span>Anak · 1 lomba kelompok</span><span>Rp95.000</span></li><li><span>Dewasa · 3 lomba kelompok</span><span>Rp570.000</span></li><li><span>Total alokasi</span><span>Rp865.000</span></li></ul><div class="note">Hemat Rp35.000 dari batas maksimal Rp900.000. Distribusi “24 pax” perlu dikunci: hadiah lomba kelompok anak dihitung sebagai paket untuk tim 3 anak.</div></article><article class="budget-card"><h3>Malam Barikan</h3><ul class="budget-list"><li><span>Panggung &amp; sound</span><span>Rp850.000</span></li><li><span>Cetak banner 17,75 m²</span><span>Rp710.000</span></li><li><span>Konsumsi</span><span>Rp650.000</span></li><li><span>Hadiah &amp; doorprize</span><span>Rp1.000.000</span></li><li><span>Total sementara</span><span>Rp3.210.000</span></li></ul><div class="note">Dibagi rata ke 5 blok: Rp642.000/blok. Belum termasuk kayu usuk, sekrup rangka banner, dan bendera tangan anak-anak.</div></article></div></div></section>
+    <section id="anggaran" style="background:#f0ecdf"><div class="wrap"><div class="section-head"><h2>Anggaran yang<br>bisa diawasi.</h2><p>Angka di bawah mengikuti data panitia. Item yang belum memiliki harga tidak dimasukkan ke total sementara.</p></div><div class="budget-grid"><article class="budget-card"><h3>Hadiah lomba</h3><ul class="budget-list"><li><span>Anak · 4 lomba personal</span><span>Rp200.000</span></li><li><span>Anak · 1 lomba kelompok</span><span>Rp95.000</span></li><li><span>Dewasa · 3 lomba kelompok</span><span>Rp570.000</span></li><li><span>Total alokasi</span><span>Rp865.000</span></li></ul><div class="note">Hemat Rp35.000 dari batas maksimal Rp900.000. Distribusi “24 pax” perlu dikunci: hadiah lomba kelompok anak dihitung sebagai paket untuk tim 3 anak.</div></article><article class="budget-card"><h3>Malam Barikan</h3><ul class="budget-list"><li><span>Panggung &amp; sound</span><span>Rp850.000</span></li><li><span>Cetak banner 17,75 m²</span><span>Rp710.000</span></li><li><span>Konsumsi</span><span>Rp650.000</span></li><li><span>Hadiah &amp; doorprize</span><span>Rp1.000.000</span></li><li><span>Total sementara</span><span>Rp3.210.000</span></li></ul><div class="note">Dibagi rata ke 5 blok: Rp642.000/blok. Belum termasuk kayu usuk, sekrup rangka banner, dan bendera tangan anak-anak.</div></article></div><div class="grand-total"><span>Total seluruh anggaran sementara<br><small>Hadiah lomba + Malam Barikan</small></span><strong>Rp4.075.000</strong></div></div></section>
 
     <section id="kesiapan"><div class="wrap"><div class="section-head"><h2>Supaya hari-H<br>tetap ringan.</h2><p>Empat hal paling penting yang perlu disiapkan panitia sebelum warga datang.</p></div><div class="rules"><div class="rule"><b>01</b><p><strong>Aturan jelas.</strong><br>Juri menyiapkan heat, timer, format hasil, dan mekanisme protes.</p></div><div class="rule"><b>02</b><p><strong>Area aman.</strong><br>Pisahkan lintasan dari penonton, cek permukaan, siapkan P3K.</p></div><div class="rule"><b>03</b><p><strong>Alat siap.</strong><br>Periksa karung, botol, pipa, wadah, galon, alas, dan alat cadangan.</p></div><div class="rule"><b>04</b><p><strong>Laporan rapi.</strong><br>Simpan daftar hadir, hasil lomba, nota, foto, dan saldo akhir.</p></div></div></div></section>
 
