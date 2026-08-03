@@ -32,7 +32,7 @@ Menyelenggarakan kegiatan yang aman, tertib, hemat, inklusif, dan dapat dipertan
 
 - Kedua acara terlaksana sesuai tanggal dan susunan acara yang disepakati.
 - Setiap cabang lomba memiliki petugas, aturan, alat, dan lembar hasil.
-- Anggaran hadiah lomba tidak melebihi **Rp865.000** dan tetap di bawah batas **Rp900.000**.
+- Pagu hadiah lomba ditetapkan **Rp1.000.000**; total kebutuhan Lomba 17-an ditetapkan **Rp1.790.000** setelah tambahan alokasi perlengkapan/operasional.
 - RAB Barikan tersampaikan secara transparan; iuran dasar terhitung **Rp642.000 per blok** dari estimasi yang tersedia.
 - Tidak ada insiden keselamatan yang dapat dicegah melalui briefing, pembatasan area, dan pertolongan pertama.
 - Bukti pengeluaran, sisa dana, dan realisasi kebutuhan tambahan terdokumentasi.
@@ -165,21 +165,22 @@ Ketiga item dicatat sebagai kebutuhan terbuka dan dibeli setelah survei harga/pe
 
 | Kelompok acara | Total sementara |
 |---|---:|
-| Hadiah Lomba 17-an | Rp865.000 |
+| Hadiah Lomba 17-an | Rp1.000.000 |
+| Perlengkapan & operasional Lomba 17-an | Rp790.000 |
 | Malam Barikan | Rp3.210.000 |
-| **Total seluruh anggaran sementara** | **Rp4.075.000** |
+| **Total seluruh anggaran sementara** | **Rp5.000.000** |
 
 Total tersebut belum memasukkan kayu usuk, sekrup rangka banner, dan bendera tangan anak-anak.
 
 ### Pembagian gabungan per 5 blok
 
-Jika hadiah lomba juga dibebankan secara rata ke 5 blok, maka basis sementara menjadi **Rp815.000 per blok** atau Rp4.075.000 ÷ 5. Angka ini adalah skenario gabungan dan perlu disepakati; RAB Barikan sendiri tetap **Rp642.000 per blok** sebelum item terbuka.
+Jika seluruh anggaran gabungan dibebankan secara rata ke 5 blok, maka basis sementara menjadi **Rp1.000.000 per blok** atau Rp5.000.000 ÷ 5. Angka ini adalah skenario gabungan dan perlu disepakati; RAB Barikan sendiri tetap **Rp642.000 per blok** sebelum item terbuka.
 
 | Skenario | Total | Per blok |
 |---|---:|---:|
 | Barikan saja | Rp3.210.000 | Rp642.000 |
-| Hadiah lomba saja | Rp865.000 | Rp173.000 |
-| **Gabungan Barikan + hadiah lomba** | **Rp4.075.000** | **Rp815.000** |
+| Hadiah lomba + operasional lomba | Rp1.790.000 | Rp358.000 |
+| **Gabungan Barikan + seluruh kebutuhan lomba** | **Rp5.000.000** | **Rp1.000.000** |
 
 
 ### Pembagian beban per 5 blok
