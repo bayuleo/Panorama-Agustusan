@@ -175,7 +175,19 @@ Ketiga item dicatat sebagai kebutuhan terbuka dan dibeli setelah survei harga/pe
 
 ---
 
-## 8. Prioritas Pelaksanaan
+## 8. Timeline Pelaksanaan
+
+| Tanggal | Milestone | Detail pekerjaan | Output/penanggung jawab |
+|---|---|---|---|
+| Hari ini s.d. 6 Agustus 2026 | Pengumpulan peralatan lomba | Inventaris dan kumpulkan karung, botol, pipa, wadah air, gelas, galon, alas, alat tulis, timer, peluit, tali pembatas, dan P3K. | Peralatan lengkap dan dicek oleh PIC perlengkapan |
+| 7 Agustus 2026 | Dekor venue lomba | Dekorasi dan tata venue lomba di depan House of Panorama; pisahkan area peserta, juri, dan penonton. | Venue lomba siap secara visual dan aman |
+| 8 Agustus 2026 | Persiapan lomba | Final check alat, layout lintasan, daftar peserta, bracket/heat, lembar nilai, briefing juri, dan simulasi alur. | Paket pelaksanaan lomba siap hari-H |
+| 9 Agustus 2026, mulai 14.00 | Lomba 17-an | Registrasi ulang, pembukaan, briefing keselamatan, pelaksanaan 8 cabang, validasi hasil, dan dokumentasi pemenang. | Kegiatan lomba terlaksana dan hasil ditandatangani juri |
+| 10 Agustus 2026 | Hadiah lomba siap | Hitung, beri label per kategori/peringkat, dan simpan seluruh hadiah lomba. | Hadiah siap diserahkan oleh PIC keuangan/perlengkapan |
+| 15 Agustus 2026 | Setup venue Barikan | Pasang panggung, sound system, banner, dekorasi, area konsumsi, area doorprize, jalur warga, dan cek keamanan. | Venue Barikan siap digunakan |
+| 16 Agustus 2026, mulai 18.00 | Malam Barikan | Final check venue/konsumsi, acara syukuran warga, penyerahan hadiah/doorprize, dokumentasi, dan pembersihan. | Acara Barikan terlaksana dan area dikembalikan bersih |
+
+## 9. Prioritas Pelaksanaan
 
 ### Now — wajib dikunci
 

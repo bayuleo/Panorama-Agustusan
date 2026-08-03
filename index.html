@@ -84,6 +84,29 @@
     .schedule-card { border-top:4px solid var(--red); background:var(--paper); padding:24px; border-radius:0 0 18px 18px; border-left:1px solid var(--line); border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
     .schedule-card h3 { font-size:1.8rem; margin-bottom:16px; }
     .schedule-card li { margin:10px 0; color:var(--muted); }
+    .calendar { background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; box-shadow:0 8px 28px rgba(47,44,35,.05); }
+    .calendar-head { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:22px 24px; background:var(--green); color:#fff8eb; }
+    .calendar-head h3 { font-size:2rem; }
+    .calendar-head span { color:#f0c76d; font-size:.78rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+    .calendar-weekdays, .calendar-grid { display:grid; grid-template-columns:repeat(7,1fr); }
+    .calendar-weekdays { background:#faf7ef; border-bottom:1px solid var(--line); }
+    .calendar-weekdays div { padding:12px 10px; color:var(--muted); font-size:.7rem; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
+    .calendar-grid { min-width:720px; }
+    .calendar-day { min-height:120px; padding:10px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); background:var(--paper); }
+    .calendar-day:nth-child(7n) { border-right:0; }
+    .calendar-day.muted { background:#faf8f2; color:#b8b3a7; }
+    .calendar-day .day-number { font-weight:900; font-size:.82rem; color:var(--muted); }
+    .calendar-day.muted .day-number { color:#c7c1b5; }
+    .calendar-event { display:block; margin-top:8px; padding:8px; border-radius:11px; color:#fff; background:var(--red); font-size:.72rem; line-height:1.25; }
+    .calendar-event.green { background:var(--green); }
+    .calendar-event.gold { background:#b98022; }
+    .calendar-event strong { display:block; font-size:.76rem; }
+    .calendar-event small { display:block; color:#fce9dd; margin-top:2px; }
+    .calendar-legend { display:flex; flex-wrap:wrap; gap:14px; padding:16px 20px; font-size:.78rem; color:var(--muted); }
+    .legend-item { display:inline-flex; align-items:center; gap:7px; }
+    .legend-dot { width:10px; height:10px; border-radius:50%; background:var(--red); }
+    .legend-dot.green { background:var(--green); }
+    .legend-dot.gold { background:#b98022; }
     footer { padding:34px 0; background:#18251f; color:#dce5dc; font-size:.86rem; }
     footer .wrap { display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
     footer a { color:#f0c76d; display:inline-flex; align-items:center; min-height:44px; }
@@ -105,6 +128,12 @@
       .metric span { font-size:.72rem; }
       .rules { grid-template-columns:1fr 1fr; }
       .rule { padding:16px; }
+      .calendar { overflow-x:auto; }
+      .calendar-head { padding:18px; }
+      .calendar-head h3 { font-size:1.6rem; }
+      .calendar-grid { min-width:650px; }
+      .calendar-day { min-height:100px; padding:8px; }
+      .calendar-event { padding:7px; font-size:.67rem; }
     }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
   </style>
@@ -114,7 +143,7 @@
   <header>
     <nav class="wrap">
       <a class="brand" href="#top"><span class="mark">17</span><span>Panorama<br>Agustusan</span></a>
-      <div class="navlinks"><a href="#agenda">Agenda</a><a href="#lomba">Lomba</a><a href="#anggaran">Anggaran</a><a href="#kesiapan">Kesiapan</a></div>
+      <div class="navlinks"><a href="#agenda">Agenda</a><a href="#lomba">Lomba</a><a href="#anggaran">Anggaran</a><a href="#timeline">Timeline</a><a href="#kesiapan">Kesiapan</a></div>
     </nav>
   </header>
 
@@ -162,7 +191,26 @@
 
     <section id="kesiapan"><div class="wrap"><div class="section-head"><h2>Supaya hari-H<br>tetap ringan.</h2><p>Empat hal paling penting yang perlu disiapkan panitia sebelum warga datang.</p></div><div class="rules"><div class="rule"><b>01</b><p><strong>Aturan jelas.</strong><br>Juri menyiapkan heat, timer, format hasil, dan mekanisme protes.</p></div><div class="rule"><b>02</b><p><strong>Area aman.</strong><br>Pisahkan lintasan dari penonton, cek permukaan, siapkan P3K.</p></div><div class="rule"><b>03</b><p><strong>Alat siap.</strong><br>Periksa karung, botol, pipa, wadah, galon, alas, dan alat cadangan.</p></div><div class="rule"><b>04</b><p><strong>Laporan rapi.</strong><br>Simpan daftar hadir, hasil lomba, nota, foto, dan saldo akhir.</p></div></div></div></section>
 
-    <section style="background:#f0ecdf"><div class="wrap"><div class="section-head"><h2>Ritme acara<br>yang terarah.</h2><p>Template susunan pelaksanaan. Jam dan lokasi diisi setelah keputusan panitia.</p></div><div class="schedule"><article class="schedule-card"><h3>9 Agustus · Lomba</h3><ol><li>Persiapan area dan registrasi</li><li>Pembukaan, doa, briefing keselamatan</li><li>Lomba anak personal dan kelompok</li><li>Lomba dewasa kelompok</li><li>Validasi hasil, pengumuman, penyerahan hadiah</li><li>Penutupan dan bersih area</li></ol></article><article class="schedule-card"><h3>16 Agustus · Barikan</h3><ol><li>Penataan panggung dan sound system</li><li>Pemasangan banner dan dekorasi</li><li>Persiapan tumpeng serta air mineral</li><li>Acara syukuran dan makan bersama</li><li>Penyerahan hadiah/doorprize</li><li>Rekap konsumsi, kas, dan kebersihan</li></ol></article></div></div></section>
+    <section id="timeline" style="background:#f0ecdf"><div class="wrap"><div class="section-head"><h2>Timeline dalam<br>satu kalender.</h2><p>Semua milestone persiapan Agustusan terlihat dalam satu tampilan. Geser ke samping saat dibuka dari layar kecil.</p></div><div class="calendar" aria-label="Kalender kegiatan Agustusan Agustus 2026"><div class="calendar-head"><h3>Agustus 2026</h3><span>Panorama Garden · Blok Atas</span></div><div class="calendar-weekdays"><div>Sen</div><div>Sel</div><div>Rab</div><div>Kam</div><div>Jum</div><div>Sab</div><div>Min</div></div><div class="calendar-grid">
+      <div class="calendar-day"><span class="day-number">27</span></div><div class="calendar-day"><span class="day-number">28</span></div><div class="calendar-day"><span class="day-number">29</span></div><div class="calendar-day"><span class="day-number">30</span></div><div class="calendar-day"><span class="day-number">31</span></div>
+      <div class="calendar-day"><span class="day-number">1</span></div><div class="calendar-day"><span class="day-number">2</span></div>
+      <div class="calendar-day"><span class="day-number">3</span><div class="calendar-event gold"><strong>Mulai hari ini</strong><small>Kumpulkan alat lomba</small></div></div>
+      <div class="calendar-day"><span class="day-number">4</span><div class="calendar-event gold"><strong>Pengumpulan alat</strong><small>Lanjut inventaris</small></div></div>
+      <div class="calendar-day"><span class="day-number">5</span><div class="calendar-event gold"><strong>Pengumpulan alat</strong><small>Cek kebutuhan</small></div></div>
+      <div class="calendar-day"><span class="day-number">6</span><div class="calendar-event gold"><strong>Deadline alat</strong><small>Peralatan terkumpul</small></div></div>
+      <div class="calendar-day"><span class="day-number">7</span><div class="calendar-event green"><strong>Dekor venue lomba</strong><small>Depan House of Panorama</small></div></div>
+      <div class="calendar-day"><span class="day-number">8</span><div class="calendar-event green"><strong>Prepare lomba</strong><small>Final check &amp; simulasi</small></div></div>
+      <div class="calendar-day"><span class="day-number">9</span><div class="calendar-event"><strong>Lomba 17-an</strong><small>Mulai pukul 14.00</small></div></div>
+      <div class="calendar-day"><span class="day-number">10</span><div class="calendar-event gold"><strong>Hadiah siap</strong><small>Cek &amp; label hadiah</small></div></div>
+      <div class="calendar-day"><span class="day-number">11</span></div><div class="calendar-day"><span class="day-number">12</span></div><div class="calendar-day"><span class="day-number">13</span></div><div class="calendar-day"><span class="day-number">14</span></div>
+      <div class="calendar-day"><span class="day-number">15</span><div class="calendar-event green"><strong>Setup venue Barikan</strong><small>Panggung, banner, konsumsi</small></div></div>
+      <div class="calendar-day"><span class="day-number">16</span><div class="calendar-event"><strong>Malam Barikan</strong><small>Mulai pukul 18.00</small></div></div>
+      <div class="calendar-day"><span class="day-number">17</span></div><div class="calendar-day"><span class="day-number">18</span></div><div class="calendar-day"><span class="day-number">19</span></div><div class="calendar-day"><span class="day-number">20</span></div><div class="calendar-day"><span class="day-number">21</span><div class="calendar-event gold"><strong>Evaluasi</strong><small>Rekap &amp; laporan panitia</small></div></div><div class="calendar-day"><span class="day-number">22</span></div><div class="calendar-day"><span class="day-number">23</span></div>
+      <div class="calendar-day"><span class="day-number">24</span></div><div class="calendar-day"><span class="day-number">25</span></div><div class="calendar-day"><span class="day-number">26</span></div><div class="calendar-day"><span class="day-number">27</span></div><div class="calendar-day"><span class="day-number">28</span></div><div class="calendar-day"><span class="day-number">29</span></div><div class="calendar-day"><span class="day-number">30</span></div>
+      <div class="calendar-day"><span class="day-number">31</span></div><div class="calendar-day muted"><span class="day-number">1</span></div><div class="calendar-day muted"><span class="day-number">2</span></div><div class="calendar-day muted"><span class="day-number">3</span></div><div class="calendar-day muted"><span class="day-number">4</span></div><div class="calendar-day muted"><span class="day-number">5</span></div><div class="calendar-day muted"><span class="day-number">6</span></div>
+    </div><div class="calendar-legend"><span class="legend-item"><i class="legend-dot"></i>Hari-H acara</span><span class="legend-item"><i class="legend-dot green"></i>Setup &amp; persiapan</span><span class="legend-item"><i class="legend-dot gold"></i>Pengadaan &amp; tindak lanjut</span></div></div></div></section>
+
+    <section style="background:#f0ecdf"><div class="wrap"><div class="section-head"><h2>Ritme acara<br>yang terarah.</h2><p>Template susunan pelaksanaan untuk membantu PIC bergerak sesuai urutan.</p></div><div class="schedule"><article class="schedule-card"><h3>9 Agustus · Lomba</h3><ol><li>Persiapan area dan registrasi</li><li>Pembukaan, doa, briefing keselamatan</li><li>Lomba anak personal dan kelompok</li><li>Lomba dewasa kelompok</li><li>Validasi hasil, pengumuman, penyerahan hadiah</li><li>Penutupan dan bersih area</li></ol></article><article class="schedule-card"><h3>16 Agustus · Barikan</h3><ol><li>Penataan panggung dan sound system</li><li>Pemasangan banner dan dekorasi</li><li>Persiapan tumpeng serta air mineral</li><li>Acara syukuran dan makan bersama</li><li>Penyerahan hadiah/doorprize</li><li>Rekap konsumsi, kas, dan kebersihan</li></ol></article></div></div></section>
   </main>
   <footer><div class="wrap"><span>Panorama Garden Agustusan 2026</span><span>Dokumen kerja panitia · <a href="docs/01-planning-acara-agustusan.md">Planning lengkap</a> · <a href="docs/02-proposal-resume-lomba-17an.md">Proposal lomba</a></span></div></footer>
 </body>
