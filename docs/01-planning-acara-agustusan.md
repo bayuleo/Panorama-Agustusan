@@ -98,6 +98,24 @@ Menyelenggarakan kegiatan yang aman, tertib, hemat, inklusif, dan dapat dipertan
 7. Menyelenggarakan Barikan dengan pengelolaan konsumsi, panggung, banner, hadiah, dan doorprize.
 8. Membuat laporan realisasi dan evaluasi.
 
+## 5. Struktur Panitia
+
+| Jabatan/Seksi | Penanggung jawab |
+|---|---|
+| Sekretaris Umum | Bayu |
+| Bendahara Umum | Ricco |
+| Ketua Lomba 17-an | Rio |
+| Sie Acara Lomba | Samuel |
+| Sie Perlengkapan | Ryan |
+| Ketua Acara Barikan | Puguh |
+| Sie Hadiah | Galeh |
+| Sie Konsumsi | Ibu-ibu |
+| Panitia Umum | Tim/warga yang tidak tercantum pada struktur inti |
+
+### Ketentuan Panitia Umum
+
+Tim yang tidak disebutkan secara khusus menjadi **Panitia Umum**. Panitia Umum membantu kebutuhan lintas kegiatan berdasarkan arahan ketua kegiatan, sekretaris umum, dan koordinator seksi terkait.
+
 ---
 
 ## 6. Rencana Kebutuhan Lomba 17-an — 9 Agustus 2026
