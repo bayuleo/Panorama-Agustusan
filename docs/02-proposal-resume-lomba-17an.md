@@ -54,9 +54,11 @@ Menyediakan rangkaian lomba tradisional dan permainan kelompok yang terorganisas
 | Peserta | Anak-anak dan warga dewasa |
 | Jumlah cabang | 8 cabang: 5 anak-anak, 3 dewasa |
 | Model lomba | Personal dan kelompok |
-| Anggaran hadiah | Rp865.000 |
-| Batas anggaran hadiah | Kurang dari Rp900.000 |
-| Efisiensi terhadap batas | Rp35.000 |
+| Pagu hadiah terbaru | Rp1.000.000 |
+| Rincian paket awal | Rp865.000 |
+| Ruang penyesuaian hadiah | Rp135.000 |
+| Alokasi perlengkapan/operasional lomba | Rp790.000 |
+| Total kebutuhan Lomba 17-an | Rp1.790.000 |
 | Total unit penerima | 24 pax juara: 15 unit anak dan 9 unit/tim dewasa sesuai basis anggaran |
 
 > **Catatan penganggaran:** hadiah lomba Pindah Bola Pakai Pipa dihitung sebagai 1 tim peringkat, dengan isi paket untuk 3 anak. Hadiah dewasa dihitung 3 tim juara per peringkat, satu tim untuk masing-masing dari 3 cabang dewasa.
@@ -200,9 +202,10 @@ Jika batas waktu tercapai sebelum finish, poin tertinggi menjadi dasar peringkat
 
 - Anak-anak: 4 lomba personal × 3 juara = 12 pax, ditambah 3 anak pada tim pemenang lomba kelompok pada setiap peringkat = 9 paket individu. Basis tabel anggaran menyebut **15 pax juara anak**; panitia perlu mengunci apakah yang dimaksud pax adalah jumlah tim/paket juara atau jumlah anak penerima.
 - Dewasa: 3 lomba × 3 peringkat = **9 tim penerima**.
-- Total alokasi tetap mengikuti angka sumber: **Rp865.000**.
+- Rincian paket awal mengikuti angka sumber: **Rp865.000**.
+- Pagu hadiah terbaru ditetapkan menjadi **Rp1.000.000**, sehingga tersedia ruang penyesuaian **Rp135.000** yang belum dirinci.
 
-> **Keputusan yang perlu dikunci sebelum belanja:** definisi “24 Pax Juara”. Rincian nominal konsisten dengan Rp295.000 + Rp570.000 = Rp865.000, tetapi jumlah individu anak pada lomba kelompok perlu dicatat terpisah dari jumlah unit juara/tim agar distribusi hadiah tidak keliru.
+> **Keputusan yang perlu dikunci sebelum belanja:** definisi “24 Pax Juara” dan penggunaan ruang penyesuaian Rp135.000. Rincian paket awal konsisten dengan Rp295.000 + Rp570.000 = Rp865.000, tetapi jumlah individu anak pada lomba kelompok perlu dicatat terpisah dari jumlah unit juara/tim agar distribusi hadiah tidak keliru.
 
 ---
 
@@ -214,16 +217,18 @@ Jika batas waktu tercapai sebelum finish, poin tertinggi menjadi dasar peringkat
 | 2 | Anak-anak | 1 lomba kelompok 3 anak/tim | Rp95.000 |
 |  | **Subtotal kategori anak-anak** |  | **Rp295.000** |
 | 3 | Dewasa | 3 lomba kelompok, seluruh peringkat | Rp570.000 |
-|  | **Grand Total** | Anak-anak + dewasa | **Rp865.000** |
+|  | **Subtotal paket terurai** | Anak-anak + dewasa | **Rp865.000** |
+|  | **Pagu hadiah terbaru** | Termasuk ruang penyesuaian | **Rp1.000.000** |
 
 | Pembanding anggaran | Nilai |
 |---|---:|
-| Batas maksimal | Rp900.000 |
-| Total alokasi | Rp865.000 |
-| Sisa/hemat | Rp35.000 |
+| Pagu hadiah terbaru | Rp1.000.000 |
+| Subtotal paket terurai | Rp865.000 |
+| Ruang penyesuaian hadiah | Rp135.000 |
 
-**Formula:** Rp295.000 + Rp570.000 = **Rp865.000**.
-**Status:** estimasi alokasi hadiah; harga realisasi perlu dicatat berdasarkan nota.
+**Formula paket awal:** Rp295.000 + Rp570.000 = **Rp865.000**.
+**Formula pagu terbaru:** Rp865.000 + Rp135.000 = **Rp1.000.000**.
+**Status:** pagu hadiah terbaru; harga realisasi dan penggunaan ruang penyesuaian perlu dicatat berdasarkan nota/persetujuan panitia.
 
 ---
 
@@ -293,7 +298,7 @@ Jika batas waktu tercapai sebelum finish, poin tertinggi menjadi dasar peringkat
 |---|---:|---:|---:|---|
 | Anak-anak | Rp295.000 | Rp................ | Rp................ | Ada / belum lengkap |
 | Dewasa | Rp570.000 | Rp................ | Rp................ | Ada / belum lengkap |
-| **Grand Total** | **Rp865.000** | **Rp................** | **Rp................** |  |
+| **Pagu hadiah terbaru** | **Rp1.000.000** | Rp................ | Rp................ |  |
 
 ## 4. Catatan Pelaksanaan dan Evaluasi
 
