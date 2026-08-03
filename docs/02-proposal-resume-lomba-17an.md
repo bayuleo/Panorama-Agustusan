@@ -170,6 +170,22 @@ Jika batas waktu tercapai sebelum finish, poin tertinggi menjadi dasar peringkat
 
 ## 5. Tabel Rincian Anggaran dan Hadiah
 
+### Kode hadiah untuk packing
+
+| Kode | Peruntukan | Isi paket | Basis jumlah |
+|---|---|---|---:|
+| HD-A1 | Juara 1, 4 lomba anak personal | Medali plastik + snack box/snack renteng hemat | 4 pax |
+| HD-A2 | Juara 2, 4 lomba anak personal | Set alat tulis + snack pack | 4 pax |
+| HD-A3 | Juara 3, 4 lomba anak personal | Buku gambar/tulis + snack | 4 pax |
+| HD-G1 | Juara 1, Pindah Bola Pakai Pipa | 3 paket alat tulis + snack tim | 1 tim / 3 paket |
+| HD-G2 | Juara 2, Pindah Bola Pakai Pipa | 3 paket buku tulis + snack tim | 1 tim / 3 paket |
+| HD-G3 | Juara 3, Pindah Bola Pakai Pipa | 3 paket snack hemat tim | 1 tim / 3 paket |
+| HD-D1 | Juara 1, 3 lomba dewasa kelompok | Sembako dapur: minyak goreng 1L + gula 1kg + terigu | 3 tim |
+| HD-D2 | Juara 2, 3 lomba dewasa kelompok | Sembako mini: minyak goreng 1L + gula 1kg | 3 tim |
+| HD-D3 | Juara 3, 3 lomba dewasa kelompok | Paket dapur hemat: minyak goreng 1L / sirup | 3 tim |
+
+**Aturan label:** tulis kode hadiah, nama cabang, peringkat, dan nama penerima/tim pada label packing. Kode `HD` berarti **Hadiah**.
+
 ### 5.1 Kategori anak-anak — 4 lomba personal
 
 | Peringkat | Jumlah juara | Komponen hadiah per pax | Harga satuan | Subtotal |
