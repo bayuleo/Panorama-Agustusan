@@ -160,6 +160,25 @@
       .committee-grid { grid-template-columns:1fr; gap:16px; }
       .committee-list li { align-items:flex-start; flex-direction:column; gap:3px; }
     }
+    /* Dark-mode event system: high contrast, restrained red-white-gold accents. */
+    :root { --ink:#f3eee4; --muted:#a9b4ac; --cream:#101713; --paper:#17221c; --red:#e45749; --red-dark:#ff9589; --gold:#e8b95d; --green:#20392d; --line:#30443a; --shadow:0 18px 50px rgba(0,0,0,.28); }
+    body { background:var(--cream); color:var(--ink); }
+    header { background:#121b16; border-color:var(--line); }
+    .hero { background:radial-gradient(circle at 90% 20%,rgba(232,185,93,.13),transparent 28%),#121b16; }
+    .hero-card,.rule,.general-team { box-shadow:var(--shadow); }
+    .hero-card { background:var(--green); }
+    .btn-secondary { color:var(--ink); border-color:var(--line); }
+    .event,.budget-card,.committee-card,.schedule-card { background:var(--paper); border-color:var(--line); box-shadow:0 8px 26px rgba(0,0,0,.14); }
+    .tag,.budget-breakdown div { background:#263b30; color:#f0c86f; }
+    th { background:#1d2d25; color:#b8c5bc; }
+    .table-wrap,.calendar { background:var(--paper); border-color:var(--line); }
+    .calendar-day { background:var(--paper); border-color:var(--line); }
+    .calendar-day.muted { background:#121b16; }
+    .calendar-weekdays { background:#1d2d25; border-color:var(--line); }
+    .note { background:#332b1b; color:#f1d99f; }
+    .grand-total { background:var(--green); }
+    section[style*="background:#f0ecdf"] { background:#0d1410 !important; }
+    footer { background:#080d0a; }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
   </style>
 </head>
@@ -199,7 +218,7 @@
       </div>
     </section>
 
-    <section class="band" id="lomba"><div class="wrap"><div><div class="eyebrow" style="color:#f0c76d">Lomba 17-an · 9 Agustus</div><h2>Permainan sederhana, kenangan panjang.</h2><p>Format dapat disesuaikan dengan jumlah peserta aktual. Juri mencatat hasil, panitia menjaga area tetap aman.</p></div><div class="metric-row"><div class="metric"><strong>5</strong><span>cabang anak</span></div><div class="metric"><strong>3</strong><span>cabang dewasa</span></div><div class="metric"><strong>Rp865 rb</strong><span>alokasi hadiah</span></div></div></div></section>
+    <section class="band" id="lomba"><div class="wrap"><div><div class="eyebrow" style="color:#f0c76d">Lomba 17-an · 9 Agustus</div><h2>Permainan sederhana, kenangan panjang.</h2><p>Format dapat disesuaikan dengan jumlah peserta aktual. Juri mencatat hasil, panitia menjaga area tetap aman.</p></div><div class="metric-row"><div class="metric"><strong>5</strong><span>cabang anak</span></div><div class="metric"><strong>3</strong><span>cabang dewasa</span></div><div class="metric"><strong>Rp1 jt</strong><span>pagu hadiah lomba</span></div></div></div></section>
 
     <section><div class="wrap"><div class="section-head"><h2>Delapan cara<br>untuk ikut seru.</h2><p>Daftar teknis ringkas dari proposal. Pemenang ditentukan berdasarkan waktu, volume, poin, atau finish sesuai cabang.</p></div><div class="table-wrap"><table><thead><tr><th>Cabang</th><th>Kategori</th><th>Format</th><th>Sistem</th><th>Dasar pemenang</th></tr></thead><tbody>
       <tr><td><strong>Balap Karung</strong></td><td>Anak</td><td>Personal</td><td>Sistem gugur</td><td>Tercepat menyentuh finish</td></tr>
