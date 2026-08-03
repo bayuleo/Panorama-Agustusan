@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pusat informasi kegiatan Agustusan Panorama Garden 2026: Lomba 17-an dan Malam Barikan.">
+  <title>Agustusan Panorama Garden 2026</title>
+  <style>
+    :root {
+      --ink: #17201d; --muted: #68736d; --cream: #f7f3e9; --paper: #fffdf8;
+      --red: #b83b2f; --red-dark: #8e2d26; --gold: #d59d3b; --green: #274b3b;
+      --line: #e4dfd3; --shadow: 0 18px 50px rgba(47, 44, 35, .1);
+      --radius: 22px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--cream); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.55; }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+    .topbar { background: var(--green); color: #f9f2e5; font-size: .82rem; letter-spacing: .04em; }
+    .topbar .wrap { min-height: 38px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .topbar strong { color: #f0c76d; }
+    header { background: var(--paper); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
+    nav { min-height: 76px; display:flex; align-items:center; justify-content:space-between; gap:22px; }
+    .brand { display:flex; align-items:center; gap:12px; text-decoration:none; font-weight:800; letter-spacing:-.03em; }
+    .mark { width: 40px; height:40px; display:grid; place-items:center; color: white; background: var(--red); border-radius: 13px 13px 13px 4px; font-family: Georgia, serif; font-size: 1.35rem; }
+    .navlinks { display:flex; gap:22px; font-size:.9rem; font-weight:700; color:var(--muted); }
+    .navlinks a { text-decoration:none; }
+    .navlinks a:hover { color:var(--red); }
+    .hero { padding: 72px 0 58px; overflow:hidden; background: radial-gradient(circle at 90% 20%, rgba(213,157,59,.18), transparent 28%), var(--paper); }
+    .hero-grid { display:grid; grid-template-columns: 1.18fr .82fr; gap:50px; align-items:center; }
+    .eyebrow { text-transform:uppercase; color:var(--red); font-size:.76rem; letter-spacing:.16em; font-weight:900; }
+    h1,h2,h3 { font-family: Georgia, "Times New Roman", serif; line-height:1.08; letter-spacing:-.045em; margin:0; }
+    h1 { font-size: clamp(3rem, 7vw, 6.4rem); max-width: 780px; margin: 16px 0 22px; }
+    h1 em { color: var(--red); font-style:normal; }
+    .hero p { color:var(--muted); font-size:1.08rem; max-width:600px; margin:0 0 28px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:0 18px; border-radius:999px; font-weight:800; font-size:.9rem; text-decoration:none; border:1px solid transparent; }
+    .btn-primary { color:white; background:var(--red); box-shadow: 0 8px 20px rgba(184,59,47,.22); }
+    .btn-secondary { background:transparent; border-color:var(--line); }
+    .hero-card { background:var(--green); color:#fff8eb; border-radius: 28px 28px 28px 6px; padding:28px; box-shadow:var(--shadow); position:relative; }
+    .hero-card:before { content:""; position:absolute; width:84px; height:84px; border:1px solid rgba(240,199,109,.6); border-radius:50%; right:26px; top:25px; }
+    .hero-card h2 { font-size:2rem; max-width:230px; margin: 24px 0 42px; }
+    .hero-card .date { border-top:1px solid rgba(255,255,255,.2); padding-top:15px; display:flex; justify-content:space-between; gap:15px; font-size:.88rem; }
+    .hero-card .date strong { color:#f0c76d; display:block; font-size:1.25rem; }
+    section { padding: 74px 0; }
+    .section-head { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:28px; }
+    .section-head h2 { font-size:clamp(2rem, 4vw, 3.2rem); }
+    .section-head p { color:var(--muted); max-width:480px; margin:0; }
+    .events { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
+    .event { background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:25px; display:flex; flex-direction:column; min-height:250px; box-shadow: 0 6px 22px rgba(47,44,35,.04); }
+    .event .num { color:var(--gold); font-weight:900; font-size:.78rem; }
+    .event h3 { font-size:2rem; margin:18px 0 9px; }
+    .event p { color:var(--muted); margin:0 0 22px; }
+    .event-foot { margin-top:auto; display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:.84rem; font-weight:800; }
+    .tag { padding:6px 10px; background:#f4e6c7; color:#785523; border-radius:999px; }
+    .band { background:var(--red); color:white; }
+    .band .wrap { display:grid; grid-template-columns: .8fr 1.2fr; align-items:center; gap:50px; }
+    .band h2 { font-size:clamp(2.3rem,5vw,4.4rem); }
+    .band p { color:#f9ddd8; }
+    .metric-row { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .metric { border-left:1px solid rgba(255,255,255,.35); padding-left:18px; }
+    .metric strong { display:block; font-size:1.65rem; font-family:Georgia,serif; }
+    .metric span { color:#f9ddd8; font-size:.83rem; }
+    .table-wrap { overflow-x:auto; background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); }
+    table { width:100%; border-collapse:collapse; min-width:720px; font-size:.92rem; }
+    th,td { text-align:left; padding:15px 17px; border-bottom:1px solid var(--line); vertical-align:top; }
+    th { color:var(--muted); text-transform:uppercase; letter-spacing:.08em; font-size:.7rem; background:#faf7ef; }
+    tr:last-child td { border-bottom:0; }
+    td strong { color:var(--red-dark); }
+    .budget-grid { display:grid; grid-template-columns: 1fr 1fr; gap:18px; }
+    .budget-card { background:var(--paper); padding:25px; border:1px solid var(--line); border-radius:var(--radius); }
+    .budget-card h3 { font-size:1.55rem; margin-bottom:18px; }
+    .budget-list { list-style:none; padding:0; margin:0; }
+    .budget-list li { display:flex; justify-content:space-between; gap:18px; padding:11px 0; border-bottom:1px dashed var(--line); font-size:.9rem; }
+    .budget-list li:last-child { border:0; font-weight:900; padding-bottom:0; }
+    .budget-list span:last-child { font-weight:800; white-space:nowrap; }
+    .note { margin-top:18px; border-left:4px solid var(--gold); padding:14px 17px; background:#fbf2dc; color:#6c5833; border-radius:0 12px 12px 0; font-size:.88rem; }
+    .rules { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+    .rule { background:var(--green); color:#f8f1e5; padding:20px; border-radius:18px 18px 18px 4px; }
+    .rule b { display:block; color:#f0c76d; font-family:Georgia,serif; font-size:1.5rem; margin-bottom:8px; }
+    .rule p { margin:0; font-size:.88rem; color:#d8e2d9; }
+    .schedule { display:grid; grid-template-columns: 1fr 1fr; gap:18px; }
+    .schedule-card { border-top:4px solid var(--red); background:var(--paper); padding:24px; border-radius:0 0 18px 18px; border-left:1px solid var(--line); border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .schedule-card h3 { font-size:1.8rem; margin-bottom:16px; }
+    .schedule-card li { margin:10px 0; color:var(--muted); }
+    footer { padding:34px 0; background:#18251f; color:#dce5dc; font-size:.86rem; }
+    footer .wrap { display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    footer a { color:#f0c76d; }
+    @media (max-width: 760px) {
+      .wrap { width:min(100% - 28px, 620px); }
+      .topbar .wrap { min-height:46px; align-items:flex-start; padding:9px 0; flex-direction:column; gap:0; }
+      nav { min-height:65px; }
+      .navlinks { display:none; }
+      .hero { padding:48px 0 42px; }
+      .hero-grid, .band .wrap, .budget-grid, .schedule { grid-template-columns:1fr; gap:24px; }
+      h1 { font-size: clamp(3rem, 16vw, 5rem); }
+      section { padding:54px 0; }
+      .section-head { display:block; }
+      .section-head p { margin-top:12px; }
+      .events { grid-template-columns:1fr; }
+      .metric-row { grid-template-columns:1fr 1fr 1fr; gap:8px; }
+      .metric { padding-left:10px; }
+      .metric strong { font-size:1.15rem; }
+      .metric span { font-size:.72rem; }
+      .rules { grid-template-columns:1fr 1fr; }
+      .rule { padding:16px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="wrap"><span>Panorama Garden · Lingkup Blok Atas</span><span><strong>2 agenda</strong> · 9 &amp; 16 Agustus 2026</span></div></div>
+  <header>
+    <nav class="wrap">
+      <a class="brand" href="#top"><span class="mark">17</span><span>Panorama<br>Agustusan</span></a>
+      <div class="navlinks"><a href="#agenda">Agenda</a><a href="#lomba">Lomba</a><a href="#anggaran">Anggaran</a><a href="#kesiapan">Kesiapan</a></div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Rangkaian kemerdekaan · 2026</div>
+          <h1>Rayakan yang dekat, <em>bersama.</em></h1>
+          <p>Dua momen warga Panorama Garden untuk bermain, berkumpul, dan menguatkan gotong royong di lingkup Blok Atas.</p>
+          <div class="actions"><a class="btn btn-primary" href="#agenda">Lihat agenda</a><a class="btn btn-secondary" href="#kesiapan">Panduan panitia</a></div>
+        </div>
+        <aside class="hero-card" aria-label="Agenda terdekat">
+          <div class="eyebrow" style="color:#f0c76d">Agenda pertama</div>
+          <h2>Lomba 17-an warga</h2>
+          <div class="date"><span><strong>09</strong>Agustus 2026</span><span style="text-align:right">Anak &amp; dewasa<br>8 cabang lomba</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="agenda">
+      <div class="wrap">
+        <div class="section-head"><h2>Dua acara,<br>satu semangat.</h2><p>Informasi inti kegiatan untuk warga, peserta, dan panitia. Detail waktu dan lokasi akan dikunci dalam rapat pelaksana.</p></div>
+        <div class="events">
+          <article class="event"><span class="num">01 / KOMPETISI WARGA</span><h3>Lomba 17-an</h3><p>Permainan tradisional dan lomba kelompok untuk anak-anak serta dewasa. Fokus pada sportivitas, keamanan, dan keseruan bersama.</p><div class="event-foot"><span>9 Agustus 2026</span><span class="tag">8 cabang</span></div></article>
+          <article class="event"><span class="num">02 / SYUKURAN WARGA</span><h3>Malam Barikan</h3><p>Syukuran kemerdekaan dengan panggung, sound system, konsumsi, banner, hadiah perlombaan, dan doorprize warga.</p><div class="event-foot"><span>16 Agustus 2026</span><span class="tag">5 blok</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="lomba"><div class="wrap"><div><div class="eyebrow" style="color:#f0c76d">Lomba 17-an · 9 Agustus</div><h2>Permainan sederhana, kenangan panjang.</h2><p>Format dapat disesuaikan dengan jumlah peserta aktual. Juri mencatat hasil, panitia menjaga area tetap aman.</p></div><div class="metric-row"><div class="metric"><strong>5</strong><span>cabang anak</span></div><div class="metric"><strong>3</strong><span>cabang dewasa</span></div><div class="metric"><strong>Rp865 rb</strong><span>alokasi hadiah</span></div></div></div></section>
+
+    <section><div class="wrap"><div class="section-head"><h2>Delapan cara<br>untuk ikut seru.</h2><p>Daftar teknis ringkas dari proposal. Pemenang ditentukan berdasarkan waktu, volume, poin, atau finish sesuai cabang.</p></div><div class="table-wrap"><table><thead><tr><th>Cabang</th><th>Kategori</th><th>Format</th><th>Sistem</th><th>Dasar pemenang</th></tr></thead><tbody>
+      <tr><td><strong>Balap Karung</strong></td><td>Anak</td><td>Personal</td><td>Sistem gugur</td><td>Tercepat menyentuh finish</td></tr>
+      <tr><td><strong>Masuk Paku</strong></td><td>Anak</td><td>Personal</td><td>Waktu tercepat</td><td>Paku masuk botol tanpa tangan</td></tr>
+      <tr><td><strong>Pindah Air Gelas</strong></td><td>Anak</td><td>Personal</td><td>Volume/waktu</td><td>Volume terbanyak; waktu sebagai tie-breaker</td></tr>
+      <tr><td><strong>Makan Kue di Wajah</strong></td><td>Anak</td><td>Personal</td><td>Waktu tercepat</td><td>Kue sampai ke mulut tanpa tangan</td></tr>
+      <tr><td><strong>Pindah Bola Pakai Pipa</strong></td><td>Anak</td><td>3 anak/tim</td><td>Estafet</td><td>Tercepat dengan penalti terkecil</td></tr>
+      <tr><td><strong>Pindah Air Galon</strong></td><td>Dewasa</td><td>5 orang/tim</td><td>Sistem gugur</td><td>Waktu dan tumpahan/penalti</td></tr>
+      <tr><td><strong>Ular Tangga Giant</strong></td><td>Dewasa</td><td>8 orang/tim</td><td>Poin/finish</td><td>Finish lebih dahulu atau poin tertinggi</td></tr>
+      <tr><td><strong>Jalan Pakai Alas</strong></td><td>Dewasa</td><td>5 orang/tim</td><td>Estafet</td><td>Tercepat dengan alat sah</td></tr>
+    </tbody></table></div></div></section>
+
+    <section id="anggaran" style="background:#f0ecdf"><div class="wrap"><div class="section-head"><h2>Anggaran yang<br>bisa diawasi.</h2><p>Angka di bawah mengikuti data panitia. Item yang belum memiliki harga tidak dimasukkan ke total sementara.</p></div><div class="budget-grid"><article class="budget-card"><h3>Hadiah lomba</h3><ul class="budget-list"><li><span>Anak · 4 lomba personal</span><span>Rp200.000</span></li><li><span>Anak · 1 lomba kelompok</span><span>Rp95.000</span></li><li><span>Dewasa · 3 lomba kelompok</span><span>Rp570.000</span></li><li><span>Total alokasi</span><span>Rp865.000</span></li></ul><div class="note">Hemat Rp35.000 dari batas maksimal Rp900.000. Distribusi “24 pax” perlu dikunci: hadiah lomba kelompok anak dihitung sebagai paket untuk tim 3 anak.</div></article><article class="budget-card"><h3>Malam Barikan</h3><ul class="budget-list"><li><span>Panggung &amp; sound</span><span>Rp850.000</span></li><li><span>Cetak banner 17,75 m²</span><span>Rp710.000</span></li><li><span>Konsumsi</span><span>Rp650.000</span></li><li><span>Hadiah &amp; doorprize</span><span>Rp1.000.000</span></li><li><span>Total sementara</span><span>Rp3.210.000</span></li></ul><div class="note">Dibagi rata ke 5 blok: Rp642.000/blok. Belum termasuk kayu usuk, sekrup rangka banner, dan bendera tangan anak-anak.</div></article></div></div></section>
+
+    <section id="kesiapan"><div class="wrap"><div class="section-head"><h2>Supaya hari-H<br>tetap ringan.</h2><p>Empat hal paling penting yang perlu disiapkan panitia sebelum warga datang.</p></div><div class="rules"><div class="rule"><b>01</b><p><strong>Aturan jelas.</strong><br>Juri menyiapkan heat, timer, format hasil, dan mekanisme protes.</p></div><div class="rule"><b>02</b><p><strong>Area aman.</strong><br>Pisahkan lintasan dari penonton, cek permukaan, siapkan P3K.</p></div><div class="rule"><b>03</b><p><strong>Alat siap.</strong><br>Periksa karung, botol, pipa, wadah, galon, alas, dan alat cadangan.</p></div><div class="rule"><b>04</b><p><strong>Laporan rapi.</strong><br>Simpan daftar hadir, hasil lomba, nota, foto, dan saldo akhir.</p></div></div></div></section>
+
+    <section style="background:#f0ecdf"><div class="wrap"><div class="section-head"><h2>Ritme acara<br>yang terarah.</h2><p>Template susunan pelaksanaan. Jam dan lokasi diisi setelah keputusan panitia.</p></div><div class="schedule"><article class="schedule-card"><h3>9 Agustus · Lomba</h3><ol><li>Persiapan area dan registrasi</li><li>Pembukaan, doa, briefing keselamatan</li><li>Lomba anak personal dan kelompok</li><li>Lomba dewasa kelompok</li><li>Validasi hasil, pengumuman, penyerahan hadiah</li><li>Penutupan dan bersih area</li></ol></article><article class="schedule-card"><h3>16 Agustus · Barikan</h3><ol><li>Penataan panggung dan sound system</li><li>Pemasangan banner dan dekorasi</li><li>Persiapan tumpeng serta air mineral</li><li>Acara syukuran dan makan bersama</li><li>Penyerahan hadiah/doorprize</li><li>Rekap konsumsi, kas, dan kebersihan</li></ol></article></div></div></section>
+  </main>
+  <footer><div class="wrap"><span>Panorama Garden Agustusan 2026</span><span>Dokumen kerja panitia · <a href="docs/01-planning-acara-agustusan.md">Planning lengkap</a> · <a href="docs/02-proposal-resume-lomba-17an.md">Proposal lomba</a></span></div></footer>
+</body>
+</html>
