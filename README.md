@@ -2,6 +2,8 @@
 
 Dokumentasi planning dan proposal kegiatan Agustusan Panorama Garden, lingkup Blok Atas.
 
+**Website:** https://bayuleo.github.io/Panorama-Agustusan/
+
 ## Dokumen
 
 - [Planning Kegiatan Agustusan 2026](docs/01-planning-acara-agustusan.md) — tujuan, kebutuhan, RAB Barikan, pembagian iuran, risiko, dan checklist.
