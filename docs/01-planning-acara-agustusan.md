@@ -108,6 +108,7 @@ Menyelenggarakan kegiatan yang aman, tertib, hemat, inklusif, dan dapat dipertan
 | Sie Acara Lomba | Samuel |
 | Sie Perlengkapan Lomba | Ryan |
 | Ketua Acara Barikan | Puguh |
+| Sie Perlengkapan Barikan | Pak Ion |
 | Sie Hadiah | Galeh |
 | Sie Konsumsi | Ibu-ibu |
 | Panitia Umum | Tim/warga yang tidak tercantum pada struktur inti |
