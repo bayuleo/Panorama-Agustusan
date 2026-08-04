@@ -225,7 +225,7 @@ Jika seluruh anggaran gabungan dibebankan secara rata ke 5 blok, maka basis seme
 | 9 Agustus 2026, mulai 14.00 | Lomba 17-an | Registrasi, briefing keselamatan, pelaksanaan 8 cabang, validasi hasil, dan penyerahan hadiah. | Lomba terlaksana |
 | 10 Agustus 2026 | Hadiah sudah terkumpul | Hitung, beri label, dan simpan hadiah lomba untuk distribusi setelah hasil disahkan. | Hadiah siap dibagikan |
 | 11–15 Agustus 2026 | Setup dekorasi Barikan | Siapkan dekorasi, banner, panggung, sound, area konsumsi, doorprize, dan jalur warga. | Venue Barikan siap |
-| 16 Agustus 2026 | Malam Barikan | Laksanakan syukuran warga, konsumsi, hadiah/doorprize, dokumentasi, dan pembersihan area. | Barikan terlaksana |
+| 16 Agustus 2026 | Malam Barikan | Laksanakan syukuran warga, show warga, konsumsi, hadiah/doorprize, dokumentasi, dan pembersihan area. | Barikan terlaksana |
 
 ## 9. Prioritas Pelaksanaan
 
